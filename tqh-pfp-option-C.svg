@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="goldGradC" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B8983E"/>
+      <stop offset="30%" stop-color="#D4B876"/>
+      <stop offset="50%" stop-color="#F0E4C8"/>
+      <stop offset="70%" stop-color="#D4B876"/>
+      <stop offset="100%" stop-color="#A88040"/>
+    </linearGradient>
+    <linearGradient id="goldVertC" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D4B876"/>
+      <stop offset="50%" stop-color="#F0E4C8"/>
+      <stop offset="100%" stop-color="#D4B876"/>
+    </linearGradient>
+    <linearGradient id="ivoryC" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBF5"/>
+      <stop offset="100%" stop-color="#E8DDD0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Rich dark background -->
+  <rect width="800" height="800" fill="#060609"/>
+  
+  <!-- Warm subtle glow -->
+  <radialGradient id="glowC" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#18150E" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#060609" stop-opacity="1"/>
+  </radialGradient>
+  <rect width="800" height="800" fill="url(#glowC)"/>
+  
+  <!-- Luxury double-rule frame -->
+  <rect x="40" y="40" width="720" height="720" rx="0" fill="none" stroke="url(#goldGradC)" stroke-width="1.2" opacity="0.45"/>
+  <rect x="52" y="52" width="696" height="696" rx="0" fill="none" stroke="url(#goldGradC)" stroke-width="0.4" opacity="0.25"/>
+  
+  <!-- Corner ornaments - top left -->
+  <line x1="40" y1="100" x2="70" y2="100" stroke="url(#goldGradC)" stroke-width="0.5" opacity="0.4"/>
+  <line x1="100" y1="40" x2="100" y2="70" stroke="url(#goldGradC)" stroke-width="0.5" opacity="0.4"/>
+  
+  <!-- Corner ornaments - top right -->
+  <line x1="730" y1="100" x2="760" y2="100" stroke="url(#goldGradC)" stroke-width="0.5" opacity="0.4"/>
+  <line x1="700" y1="40" x2="700" y2="70" stroke="url(#goldGradC)" stroke-width="0.5" opacity="0.4"/>
+  
+  <!-- Corner ornaments - bottom left -->
+  <line x1="40" y1="700" x2="70" y2="700" stroke="url(#goldGradC)" stroke-width="0.5" opacity="0.4"/>
+  <line x1="100" y1="730" x2="100" y2="760" stroke="url(#goldGradC)" stroke-width="0.5" opacity="0.4"/>
+  
+  <!-- Corner ornaments - bottom right -->
+  <line x1="730" y1="700" x2="760" y2="700" stroke="url(#goldGradC)" stroke-width="0.5" opacity="0.4"/>
+  <line x1="700" y1="730" x2="700" y2="760" stroke="url(#goldGradC)" stroke-width="0.5" opacity="0.4"/>
+  
+  <!-- Top decorative rule -->
+  <rect x="300" y="260" width="200" height="0.8" fill="url(#goldGradC)" opacity="0.5"/>
+  <rect x="370" y="252" width="60" height="0.5" fill="url(#goldGradC)" opacity="0.3"/>
+  
+  <!-- "the" - delicate italic -->
+  <text x="400" y="310" 
+    font-family="'Georgia', 'Times New Roman', serif" 
+    font-weight="400" 
+    font-size="30" 
+    fill="url(#goldGradC)" 
+    text-anchor="middle"
+    letter-spacing="0.5em"
+    font-style="italic"
+    opacity="0.85">the</text>
+  
+  <!-- "quiet" - large lowercase serif -->
+  <text x="400" y="400" 
+    font-family="'Georgia', 'Times New Roman', serif" 
+    font-weight="400" 
+    font-size="100" 
+    fill="url(#ivoryC)" 
+    text-anchor="middle"
+    letter-spacing="0.12em">quiet</text>
+  
+  <!-- Gold separator bar -->
+  <rect x="180" y="418" width="440" height="2" fill="url(#goldGradC)" opacity="0.55"/>
+  <rect x="280" y="424" width="240" height="0.5" fill="url(#goldGradC)" opacity="0.25"/>
+  
+  <!-- "hustle" - large lowercase serif -->
+  <text x="400" y="510" 
+    font-family="'Georgia', 'Times New Roman', serif" 
+    font-weight="400" 
+    font-size="100" 
+    fill="url(#ivoryC)" 
+    text-anchor="middle"
+    letter-spacing="0.12em">hustle</text>
+  
+  <!-- Bottom decorative rule -->
+  <rect x="300" y="545" width="200" height="0.8" fill="url(#goldGradC)" opacity="0.5"/>
+  
+  <!-- Small diamond ornament -->
+  <polygon points="400,560 404,567 400,574 396,567" fill="url(#goldGradC)" opacity="0.4"/>
+</svg>
