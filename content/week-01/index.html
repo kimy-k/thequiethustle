@@ -1,0 +1,45 @@
+<!-- @dsCard group="Content Packs" viewport="1240x820" name="Week 1 — Days 1–7" subtitle="Full first-week content pack · all formats, captions, pins & PNG export" -->
+<!-- @startingPoint section="Content Packs" subtitle="Week 1: 7 days of ready-to-post content" viewport="1240x820" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Quiet Hustle — Week 1 Content Pack</title>
+<link rel="stylesheet" href="../../styles.css" />
+<link rel="stylesheet" href="../pack.css" />
+</head>
+<body>
+<div class="page">
+  <div class="masthead">
+    <div class="mhrow">
+      <div>
+        <div class="kick">The Quiet Hustle · Content Pack</div>
+        <h1>Week 1 — Introduction Arc</h1>
+        <p class="sub">Seven days, June 8–14. Every post rendered at native export size with its full caption and hashtags. Carousels read left-to-right in swipe order; Pinterest-bound posts include a 2:3 pin.</p>
+      </div>
+      <button id="exportBtn" class="exportbtn">
+        <span class="di"></span>
+        Download all <span class="cnt">25</span> PNGs
+        <span class="zhint">.zip</span>
+      </button>
+    </div>
+  </div>
+
+  <div id="days"></div>
+
+  <div class="footnote">
+    <b>Export:</b> one click bundles every frame as an individually-named PNG at native size — carousel 1080×1350 · reel 1080×1920 · quote 1080×1080 · pin 1000×1500. Files follow <code>tqh-carousel-5-affiliate-secrets-01.png</code>, <code>tqh-reel-referral-commissions.png</code> …<br />
+    <b>Voice:</b> calm authority, no exclamation marks, "income systems" not the p-word, faceless. Built from the repo brand kit + Day-1→7 content calendar.
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+<script src="../renderers.js"></script>
+<script src="../pack.js"></script>
+<script src="data.js"></script>
+<script>
+  window.TQHPack.initPack(window.WEEK1, { zipName: 'tqh-week-01-content.zip' });
+</script>
+</body>
+</html>
